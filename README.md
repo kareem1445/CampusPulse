@@ -1,46 +1,147 @@
 # CampusPulse – College Notice Board
 
-A Flutter Android app for sharing and viewing college notices. Students can add notices, search them, filter by department, open full details, mark important notices, and delete notices. Data is saved locally on the device and remains after restarting the app.
+CampusPulse is a Flutter-based Android application that helps college students share and view college announcements in one place.
 
 ## Features
-- Home screen with notice list and search
-- Add-notice form with validation
-- Notice details screen
-- Department filter screen
-- Important notice pin marker
-- Persistent local storage with SharedPreferences
-- Loading, error/retry, empty, and populated list states
-- Provider + ChangeNotifier for app state
-- Widget-independent model serialization test
 
-## Setup
-Install Flutter stable (Dart 3.5+), Android Studio, and an Android emulator or connect a physical Android phone with USB debugging enabled.
+- Home screen with notice list
+- Add new college notices
+- Form validation
+- Search notices
+- Filter notices by department
+- View complete notice details
+- Mark important notices
+- Delete notices
+- Local data storage using SharedPreferences
+- Data persistence after restarting the app
+- Loading, error and empty states
+- Provider and ChangeNotifier for state management
 
-From this folder, run:
+## Technologies Used
+
+- Flutter
+- Dart
+- Provider
+- SharedPreferences
+- Android Studio
+- Visual Studio Code
+- Git and GitHub
+
+## Project Structure
+
+```text
+lib/
+├── models/
+├── services/
+├── screens/
+└── widgets/
+
+assets/
+test/
+android/
+```
+
+## Installation and Setup
+
+### Requirements
+
+- Flutter SDK
+- Android Studio
+- VS Code
+- Android Emulator or Android Phone
+
+### Steps to Run
+
+1. Clone the repository:
 
 ```bash
-flutter create . --platforms=android
+git clone https://github.com/kareem1445/CampusPulse.git
+```
+
+2. Open the project:
+
+```bash
+cd CampusPulse
+```
+
+3. Install dependencies:
+
+```bash
 flutter pub get
+```
+
+4. Analyze the project:
+
+```bash
 flutter analyze
+```
+
+5. Run tests:
+
+```bash
 flutter test
+```
+
+6. Run the application:
+
+```bash
 flutter run
 ```
 
-Build a release APK:
+## Build Release APK
 
 ```bash
 flutter build apk --release
 ```
 
-APK output:
-`build/app/outputs/flutter-apk/app-release.apk`
+APK location:
 
-## Important
-This project starts with an empty notice board intentionally. The assignment disallows a hard-coded sample list as the app's data source. Add real notices through the form; they are stored on the device.
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
 
-## Team split (3 members)
-- Member 1: Home screen, notice cards, search and list states.
-- Member 2: Add-notice form, validation, categories and department filter.
-- Member 3: Notice model, Provider, local storage, details/delete flow, testing and integration.
+## Application Screenshots
 
-Each member should make their own meaningful commits to the shared GitHub repository. Do not submit one person's commits as if they were made by everyone.
+### Home Screen
+Add Home Screen screenshot here.
+
+### Add Notice Screen
+Add Add Notice screenshot here.
+
+### Notice Details Screen
+Add Notice Details screenshot here.
+
+### Department Filter Screen
+Add Department Filter screenshot here.
+
+## Data Storage
+
+The application uses SharedPreferences for local data storage. Notices added through the app are stored on the device and remain available after restarting the application.
+
+## Team Members
+
+| S.No | Name | Responsibilities |
+|---|---|---|
+| 1 | Sk Abdul Kareem | Project coordination, Home Screen and GitHub integration |
+| 2 | K Chandrashekhar | Add Notice Screen and Form Validation |
+| 3 | S Narendra | Department Filter, Notice Details and Testing |
+
+## Future Enhancements
+
+- Push notifications
+- Admin login and authentication
+- Cloud database integration
+- Image attachments
+- Online synchronization
+
+## Project Information
+
+- **Project Name:** CampusPulse
+- **Project Type:** Android Application
+- **Framework:** Flutter
+- **Version:** 1.0.0
+- **Repository:** https://github.com/kareem1445/CampusPulse
+
+---
+
+Developed as a team project using Flutter.
