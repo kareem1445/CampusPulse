@@ -143,5 +143,15 @@ The application uses SharedPreferences for local data storage. Notices added thr
 - **Repository:** https://github.com/kareem1445/CampusPulse
 
 ---
+## App Screenshots
+
+### Home Screen
+![Home Screen](WhatsApp%20Image%202026-11-05%20at%206.48.57%20PM.jpeg)
+
+### Add Notice Screen
+![Add Notice](WhatsApp%20Image%202026-11-05%20at%206.48.56%20PM%20(1).jpeg)
+
+### Notice Details Screen
+![Notice Details](WhatsApp%20Image%202026-11-05%20at%206.48.57%20PM%20(2).jpeg)
 
 Developed as a team project using Flutter.
